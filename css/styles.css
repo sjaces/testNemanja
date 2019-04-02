@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+#main {
+    background: #fae8b8;
+    display: block;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#end {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    margin: 0 auto;
+    min-width: 80%;
+    background: #ff0000a2;
+    text-align: center;
+    
+    
+}
+
+#end h2 {
+    color: #fae8b8;
+
+}
